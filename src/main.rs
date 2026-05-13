@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let id = uuid::Uuid::new_v4();
+    println!("Generated UUID is {}", id);
 }
